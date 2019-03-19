@@ -1,6 +1,6 @@
 # sgbouncewizard
 
-UCI Capstone 2018-19 Bounce Wizard
+This repository contains the front-end source code for the UCI Capstone 2018-19 Bounce Wizard Project.
 
 ### Team Members:
 
@@ -11,9 +11,13 @@ UCI Capstone 2018-19 Bounce Wizard
 - Gevorg Gabrielyan
 - Kenny Matsudo
 
+## Live Demo
+
+Visit a live demo of the site:`http://sgbouncewizard.netlify.com`
+
 ## Setup
 
-Before running, make sure you have the proper environmental files and endpoints configured. Please contact team members for more information.
+Before running, make sure you have the proper environmental files and endpoints configured. This includes the api and socket endpoints. Please contact team members for more information.
 
 ## Starting Front End w/ json-server
 
@@ -22,9 +26,9 @@ This runs the application with a json database stored locally. No backend servic
 1. `$ npm run dev:mock`
 2. `$ npm run json-server`
 
-## Starting Front End w/ Docker Container
+## Starting Front End w/ Backend Docker Container
 
-Please make sure the backend service and mySQL docker container are running prior to running the front end application.
+Please make sure the backend service and mySQL docker container are running prior to running the front end application. More information on this can be found at: https://github.com/jimmyjames85/bouncecm
 
 - `$ npm run dev`
 
@@ -54,11 +58,11 @@ Cypress mimics user actions in a browser to perform tests such as successfully l
 
 #### Using Json-Server as the Backend
 
-- `$ npm run cypress`:`open`:`mock`
+- `$ npm run cypress:open:mock`
 
 #### Using GO Docker Container as the Backend
 
-- `$ npm run cypress`:`open`
+- `$ npm run cypress:open:localhost`
 
 This opens up a Cypress application containing various tests categorized by pages. Clicking on any of the \*.spec.js files will begin the test.
 
