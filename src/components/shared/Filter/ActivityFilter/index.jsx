@@ -4,7 +4,7 @@ import { TextInput } from "@sendgrid/ui-components/text-input";
 import { Select } from "@sendgrid/ui-components/select";
 import { DateRangePicker } from "react-dates";
 import "react-dates/initialize";
-import "react-dates/lib/css/_datepicker.css";
+// import "react-dates/lib/css/_datepicker.css";
 import { Row } from "../../Row";
 import { Column } from "../../Column";
 import "./index.scss";
